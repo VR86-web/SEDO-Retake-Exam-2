@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        dotnet 'dotnet-6'
-    }
-
     stages {
         stage('Checkout') {
             steps {
